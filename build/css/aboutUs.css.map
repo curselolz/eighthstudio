@@ -1,0 +1,1 @@
+{"version":3,"sources":["aboutUs.scss"],"names":[],"mappings":"AAAA,OACI,gFAAkF,AAClF,qBAAsB,CACzB","file":"aboutUs.css","sourcesContent":["header {\r\n    background: url('../img/iswanto-arif-435716-unsplash.png') no-repeat center center;\r\n    background-size: cover;\r\n}"]}
