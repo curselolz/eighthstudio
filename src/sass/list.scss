@@ -1,0 +1,147 @@
+$bg-color:#272727;
+body
+{
+    font-family: 'Steam';
+}
+.navbar {
+    padding: 3rem 0rem;
+}
+.nav-item
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+
+    letter-spacing: -.03px;
+    text-transform: lowercase;
+}
+.navbar-brand
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-right: 0;
+
+    letter-spacing: -.3px;
+    text-transform: lowercase;
+}
+.panda-block
+{
+    background: url('../img/panda.png') no-repeat center center;
+    background-size: cover;
+}
+body
+{
+    font-family: 'Steam';
+}
+.nav-link
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 400;
+
+    letter-spacing: -.03px;
+    text-transform: lowercase;
+
+    color: #303439;
+}
+.fragmanu-block
+{
+    background: url('../img/fragmanu.png') no-repeat center center;
+    background-size: cover;
+}
+.cuccina-block
+{
+    background: url('../img/Cucina.png') no-repeat center center;
+    background-size: cover;
+}
+.fit-block
+{
+    background: url('../img/fit4mom.png') no-repeat center center;
+    background-size: cover;
+}
+.zdorova-block
+{
+    background: url('../img/zdory.png') no-repeat center center;
+    background-size: cover;
+}
+.apexhookah-block
+{
+    background: url('../img/apexhookah.png') no-repeat center center;
+    background-size: cover;
+}
+.button-rounder
+{
+    width: 222px;
+    height: 43px;
+
+    cursor: pointer;
+
+    border: 1px solid rgba(32, 32, 32, .5);
+    border-radius: 22px;
+    background: transparent;
+}
+.button-rounder-white
+{
+    width: 222px;
+    height: 43px;
+
+    cursor: pointer;
+
+    border: 1px solid rgba(32, 32, 32, .5);
+    border-color: white;
+    border-radius: 22px;
+    background: transparent;
+}
+
+.contact-text
+{
+    font-family: 'Steam';
+    font-size: 30px;
+    font-weight: 400;
+
+    letter-spacing: -.4px;
+
+    color: #303439;
+}
+.contact-title
+{
+    font-family: 'Steam';
+    font-size: 18px;
+    font-weight: 400;
+
+    letter-spacing: -.03px;
+    text-transform: uppercase;
+
+    color: #798ea5;
+}
+
+.footer-text
+{
+    font-family: 'Steam Light';
+    font-size: 18px;
+    font-weight: 300;
+
+    letter-spacing: -.03px;
+
+    opacity: .5;
+    color: #303439;
+}
+
+.round-btn {
+    border-radius:20px;
+}
+
+.input-border {
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+}
+.social-list {
+    display: flex;
+    list-style-type: none;
+    .list-item-social {
+        margin-right:65px;
+    }
+}

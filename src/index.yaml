@@ -1,0 +1,15 @@
+ProjectTitle: admin-panel
+
+PageList:
+- file: page.html
+  ready: 50
+- file: about-us.html
+  ready: 50
+- file: list.html
+  ready: 50
+- file: tiles.html
+  ready: 50
+- file: project.html
+  ready: 50
+- file: detail.html
+  ready: 50

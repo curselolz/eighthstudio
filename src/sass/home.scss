@@ -1,0 +1,142 @@
+$bg-color: #272727;
+$yellow: #ffe73e;
+$white: #fff;
+$harmony1: #db39ed;
+$harmony2: #ed394b;
+$harmony3: #4bed39;
+
+body
+{
+    font-family: 'Steam';
+}
+header
+{
+    background-color: $bg-color;
+}
+.navbar
+{
+    padding: 3rem 0rem;
+}
+.header-heading
+{
+    font-family: 'Steam Medium';
+    font-weight: 500;
+
+    letter-spacing: -.13px;
+
+    color: $white;
+    .brand
+    {
+        letter-spacing: -.13px;
+
+        color: $yellow;
+    }
+    .animation
+    {
+        color: $harmony1;
+    }
+    .logos
+    {
+        color: $harmony2;
+    }
+    .presentations
+    {
+        color: $harmony3;
+    }
+}
+
+.nav-item
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+
+    letter-spacing: -.03px;
+    text-transform: lowercase;
+}
+.navbar-brand
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-right: 0;
+
+    letter-spacing: -.3px;
+    text-transform: lowercase;
+}
+
+.button-rounder
+{
+    padding-top: 8px;
+    padding-right: 61px;
+    padding-bottom: 7px;
+    padding-left: 53px;
+
+    cursor: pointer;
+
+    border: 1px solid rgba(32, 32, 32, .5);
+    border-radius: 22px;
+    background: transparent;
+}
+.button-rounder-white
+{
+    padding-top: 8px;
+    padding-right: 61px;
+    padding-bottom: 7px;
+    padding-left: 53px;
+
+    cursor: pointer;
+
+    border: 1px solid rgba(32, 32, 32, .5);
+    border-color: $white;
+    border-radius: 22px;
+    background: transparent;
+}
+
+.panda-block
+{
+    background: url('../img/panda.png') no-repeat center center;
+    background-size: cover;
+}
+.fragmanu-block
+{
+    background: url('../img/fragmanu.png') no-repeat center center;
+    background-size: cover;
+}
+.client-block
+{
+    background: url('../img/Cucina.png') no-repeat center center;
+    background-size: cover;
+}
+.footer-text
+{
+    font-family: 'Steam Light';
+    font-size: 18px;
+    font-weight: 300;
+
+    letter-spacing: -.03px;
+
+    opacity: .5;
+    color: #303439;
+}
+
+.list-text
+{
+    font-family: 'Steam Light';
+    font-size: 18px;
+    font-weight: 300;
+
+    letter-spacing: -.3px;
+
+    color: #303439;
+}
+
+hr
+{
+    box-sizing: border-box;
+    height: 1px;
+
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,139 @@
+$spacer: 6rem;
+$link-color: #fff;
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'fonts';
+body
+{
+    font-family: 'Steam';
+}
+
+.navbar
+{
+    padding: 3rem 0rem;
+}
+.nav-item
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+
+    letter-spacing: -.03px;
+    text-transform: lowercase;
+}
+.navbar-brand
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-right: 0;
+
+    letter-spacing: -.3px;
+    text-transform: lowercase;
+}
+.all-projects
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 400;
+
+    letter-spacing: -.03px;
+
+    color: #303439;
+}
+
+.padding-block
+{
+    padding: 7% 0 25% 1%;
+}
+
+.social-list
+{
+    list-style-type: none;
+}
+.social-text
+{
+    font-family: 'Steam';
+    font-size: 24px;
+    font-weight: 700;
+
+    letter-spacing: -.03px;
+}
+.contact-text
+{
+    font-family: 'Steam';
+    font-weight: 400;
+
+    letter-spacing: -.4px;
+
+    color: #303439;
+}
+.contact-title
+{
+    font-family: 'Steam';
+    font-size: 18px;
+    font-weight: 400;
+
+    letter-spacing: -.03px;
+    text-transform: uppercase;
+
+    color: #798ea5;
+}
+
+hr {
+    margin-bottom: 0;
+}
+@media (min-width: 544px)
+{
+    .header-heading
+    {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .contact-text
+    {
+        font-size: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)
+{
+    .header-heading
+    {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .contact-text
+    {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)
+{
+    .header-heading
+    {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .contact-text
+    {
+        font-size: 25px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+    .header-heading
+    {
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .contact-text
+    {
+        font-size: 30px;
+    }
+}
