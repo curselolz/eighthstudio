@@ -1,3 +1,4 @@
+https://curselolz.github.io/eighthstudio/build/page.html landing for eighthstudio.net
 #How to use
 
 Clone this repo and then in command line type:
